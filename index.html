@@ -1,0 +1,136 @@
+<!--Declaracion de tipo de archivo-->
+<!DOCTYPE html>
+<!--Documento raiz-->
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps de gatos </title>
+    <link href="style.css" rel="stylesheet">
+    <link href="link rel=" preconnet href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.gogleapis.com2?family=Roboto:wght@100&display0swap" rel="stylesheet">
+    <!--Ejemplo de elemnto style-->
+    <!--Estte estilo se asignara/afectara a todos los elemntos h1, h3 y p-->
+    <!--
+<style>
+    h1{
+        color:blue;
+    }
+    h3{
+        color:green;
+    }
+    p{
+        color:purple;
+    }
+</style>
+-->
+</head>
+<body>
+    <!--Crear encabezado-->
+    <h1>¡hola mundo!</h1><!--nivel mas grande encabezado-->
+    <h2 style="color:blue">¡hola mundo!</h2><!--etiqueta de cierre +contenido+etiqueta de cierre -->
+    <h3>¡hola mundo!</h3>
+    <h4>¡hola mundo! </h4>
+    <h5>¡hola mundo!</h5>
+    <h6>¡hola mundo!</h6>
+    <h1 id="titulo-app-gatos"></h1>Apps de gatos</h1>
+    <p>Un maullido es un masaje al corazón.</p>
+    <p>Me gustaría que mi escritura fuera tan misteriosa como un gato.</p>
+    <p>El paraíso jamás será paraíso a no ser que mis gatos estén ahí esperándome.</p>
+    <p>Dios hizo el gato para ofrecer al hombre el placer de acariciar un tigre.</p>
+    <!--=image, src=source-->
+    <img src="https://bit.ly/3N6uSMy" alt="gatito negro"> <!--insertar imagen de internet-->
+    <img src="imagenes/lasagna.jpg" alt="lasagna"> <!--imagenes desde nuestro dispositivo-->
+    <!--Crear enlaces externos-->
+    <p>en este link <a href="https://bit.ly/3zh6lyu" target="-blank" rel="noopener noroferrer">puedes ver mas imagenes</a> <p>
+        <hr> <!--Etiqueta hr = Horizontal Rule-->
+        <h3>Listas de gatos</h3>
+        <div> <!--Elemento div-->
+        <p>Cosas que los gatos <strong> aman </strong>:</p> <!--strong para hacer la letra negrita-->
+ <!--em para hacer la letra cursiva-->
+ <p><em>Listas hechas por Yocabet </em></p> 
+<!--Listas no ordenadas-->
+<!--ul = unordered list-->
+<ul> 
+    <li>Juguetes</li> <!--li = list item-->
+    <li>Lasagna</li> 
+    <li>Plantas</li> 
+</ul> 
+<img src="imagenes/lasagna.jpg" alt="lasagna"> <!--imagen desde nuestro dispositivo-->
+<p>Cosas que los gatos <strong>odian</strong>:</p>
+<!--Listas ordenadas-->
+<ol> <!--ol = ordered list-->
+    <li>Truenos</li> <!--li = list item-->
+    <li><s>Otros gatos</s></li> <!--Etiqueta 's' para texto tachado-->
+    <li>Tratamientos antipulgas</li> 
+</ol> 
+</div>
+<img src="imagenes/gatito.png" alt="gatito"> <!--imagen desde nuestro dispositivo-->
+
+<!--Crear enlaces internos / Enlaces a Secciones Internas-->
+<a href="#parrafo-1">Párrafo 1</a>
+<a href="#parrafo-2">Párrafo 2</a>
+<a href="#parrafo-3">Párrafo 3</a>
+<a href="#parrafo-4">Parráfo 4</a>
+
+<h3 id="parrafo-1">Párrafo 1</h3>
+
+<p>frases para los amantes nocturnos .</p>
+
+<p> Un mauyido es un msaje al corazon . ¡Sigue leyendo!.</p>
+
+<h3 id="parrafo-2">Párrafo 2</h3>
+<p>Es bueno tener gatos cerca.Si uno se siente mal, su compañia lo llena t</p>
+<h3 id="parrafo-3">Párrafo 3</h3>
+<p>En cualquier caso, los gatos son animales de compañía fascinantes.</p>
+<h3 id="parrafo-4">Párrafo 4</h3>
+<p>que regalo mas grande el amor de un gato Charles Dickens</p>
+<!--Crear enlaces externos-->
+<p>En este link <a href="https://bit.ly/3zh6lyu" target="_blank" rel="noopener noreferrer">puedes ver más imágenes de gatos.</a></p>
+<!--Enlaces con imágenes-->
+<a href="https://www.hogarmania.com/mascotas/cinco-razones-para-adoptar-gato-negro.html" target="_blank"><img src="https://bit.ly/3N6uSMy" alt="gatito negro"></a>
+<img src="imagenes/lasagna.jpg" alt="lasagna">
+<!--Crear enlaces con #. Enlaces muertos o dead links-->
+<p>Visita nuestro <a href="#" rel="noopener noreferrer">nuevo sitio web aquí</a></p>
+<!--Formulario-->
+<form action="/enviar-respuesta">
+<!--Texto y botón enviar-->
+<input type="text" placeholder="URL de la foto de tu gato" required>
+<br>
+<button type="submit">Enviar</button>
+             
+<!--Botones de radio-->
+<p>¿Tu gato es cachorro o adulto?</p>
+    <label for="cachorro">
+        <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro
+    </label>
+    <br>
+    <label for="adulto">
+        <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+    </label>
+    <br>
+<!--Casillas de verificación-->
+<p>¿Qué tipo de gato es el tuyo?</p>
+<label for="carinoso">
+    <input id="carinoso" type="checkbox" value="carinoso" name="personalidad" checked> Cariñoso
+</label>
+<br>
+<label for="perezoso">
+    <input id="perezoso" type="checkbox" value="perezoso" name="personalidad"> Perezoso
+</label>
+<br>
+<label for="energico">
+    <input id="energico" type="checkbox" value="energico" name="personalidad"> Enérgico
+</label>
+<br>         
+</form>
+</main>
+<!--pie de página-->
+<footer>
+<!--Etiqueta small para que el pie de página se vea más pequeño-->
+<p><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas.mx</a></small></p>
+</footer>
+</body>
+</html>
